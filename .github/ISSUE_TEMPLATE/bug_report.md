@@ -8,11 +8,8 @@ assignees: ""
 
 ## Description
 
-_A clear description of the bug._
-
-_What was happening in the game when the bug appeared? How many players were in the lobby?_
-
-_Screenshots of the bug, if possible:_
+_A clear description of the bug. Please include what was happening in the game when the bug appeared and how many players were in the lobby._
+_If possible, please include screenshots of the bug!_
 
 ## Expected Behavior
 

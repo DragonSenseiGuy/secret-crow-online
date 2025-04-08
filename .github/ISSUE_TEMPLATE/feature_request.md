@@ -8,7 +8,7 @@ assignees: ""
 
 ## Use Case
 
-_What is your request? How would it benefit you or other players?_
+_What is your request? How would it benefit you or other players? (Drawings or sketches are welcome!)_
 
 ## Details
 
