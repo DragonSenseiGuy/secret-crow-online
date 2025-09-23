@@ -6,10 +6,11 @@
   - Open frontend: [http://localhost:3000](http://localhost:3000)
   - Backend health: [http://localhost:4040/ping](http://localhost:4040/ping)
 - Alternative: only DB in Docker, run app locally:
-  - docker compose up -d db  (or use docker run …)
-  - export DATABASE_URL=postgres://secret:secret@localhost:5432/secrethitler
-  - In backend/: ./gradlew runLocal
-  - In frontend/: npm install && npm run devLocal
+  - `docker compose up -d db`  (or use docker run …)
+  - `export DATABASE_URL=postgres://secret:secret@localhost:5432/secrethitler`
+  - In backend/: `./gradlew runLocal`
+  - In frontend/: `npm install && npm run devLocal`
+  - Open frontend: [http://localhost:3000](http://localhost:3000)
 
 Your setup will vary depending on if you're only making changes to the frontend, or if you're making changes to the frontend and the backend at once.
 
