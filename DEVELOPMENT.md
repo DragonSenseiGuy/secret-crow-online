@@ -2,9 +2,9 @@
 
 ## Quick start using Docker:
 - Run everything with Docker Compose (DB + backend + frontend):
-  - docker compose up --build
-  - Open frontend: http://localhost:3000
-  - Backend health: http://localhost:4040/ping
+  - `docker compose up --build`
+  - Open frontend: [http://localhost:3000](http://localhost:3000)
+  - Backend health: [http://localhost:4040/ping](http://localhost:4040/ping)
 - Alternative: only DB in Docker, run app locally:
   - docker compose up -d db  (or use docker run …)
   - export DATABASE_URL=postgres://secret:secret@localhost:5432/secrethitler
