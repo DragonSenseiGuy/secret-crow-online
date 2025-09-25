@@ -1,5 +1,17 @@
 # Development setup for Secret Hitler Online
 
+## Quick start using Docker:
+- Run everything with Docker Compose (DB + backend + frontend):
+  - `docker compose up --build`
+  - Open frontend: [http://localhost:3000](http://localhost:3000)
+  - Backend health: [http://localhost:4040/ping](http://localhost:4040/ping)
+- Alternative: only DB in Docker, run app locally:
+  - `docker compose up -d db`  (or use docker run …)
+  - `export DATABASE_URL=postgres://secret:secret@localhost:5432/secrethitler`
+  - In backend/: `./gradlew runLocal`
+  - In frontend/: `npm install && npm run devLocal`
+  - Open frontend: [http://localhost:3000](http://localhost:3000)
+
 Your setup will vary depending on if you're only making changes to the frontend, or if you're making changes to the frontend and the backend at once.
 
 ## Frontend Only
@@ -18,7 +30,7 @@ npm install
 npm run devServer
 ```
 
-The webpage should open automatically in your browser, but is usually hosted at [localhost:3000](http://locahost:3000).
+The webpage should open automatically in your browser, but is usually hosted at [localhost:3000](http://localhost:3000).
 
 ## Changing frontend + backend
 
@@ -35,7 +47,7 @@ cd Secret-Hitler-Online/backend
 ./gradlew runLocal
 ```
 
-This will start the backend server at [`http://localhost:4040`](http://locahost:4040) by default. This will also set the server in debug-mode, so the CORS policy will not block access from the frontend.
+This will start the backend server at [`http://localhost:4040`](http://localhost:4040) by default. This will also set the server in debug-mode, so the CORS policy will not block access from the frontend.
 
 **Every time you make changes to Java files, you'll need to stop and restart the development server.**
 
