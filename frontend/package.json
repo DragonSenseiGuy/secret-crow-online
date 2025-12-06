@@ -27,7 +27,7 @@
 		"react-helmet": "^6.1.0",
 		"react-router": "^5.2.0",
 		"react-router-config": "^5.1.1",
-		"react-router-dom": "^5.2.0",
+		"react-router-dom": "^7.10.1",
 		"react-textfit": "^1.1.1",
 		"react-twitter-embed": "^3.0.3",
 		"typescript": "^3.9.10"
