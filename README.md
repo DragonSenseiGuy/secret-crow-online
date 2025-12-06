@@ -1,4 +1,4 @@
-# Secret-Hitler-Online
+# Secret-Crow-Online :3c
 ![](https://i.postimg.cc/zvnLRbqq/place-policy.gif)
 
 A fan-made web adaptation of [Secret Hitler](https://secrethitler.com), a social deduction board game for up to 10 players by Goat, Wolf & Cabbage. You can play it with friends at [secret-hitler.online](https://secret-hitler.online)!
