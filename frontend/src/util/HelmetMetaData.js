@@ -5,7 +5,7 @@ export default function HelmetMetaData(props) {
 	let location = "/";
 	let currentUrl = "http://www.secret-hitler.online" + location; // location.pathname
 	let quote = props.quote !== undefined ? props.quote : "";
-	let title = props.title !== undefined ? props.title : "Secret Hitler Online";
+	let title = props.title !== undefined ? props.title : "Secret Crow Online";
 	let image =
 		props.image !== undefined
 			? props.image
@@ -13,10 +13,10 @@ export default function HelmetMetaData(props) {
 	let description =
 		props.description !== undefined
 			? props.description
-			: "Secret Hitler Online is a free hidden-identity game for up to 10 players, elegantly adapted from the original Secret Hitler. " +
-			  "Play for free in your browser with no ads ever. Can you find and stop the Secret Hitler?";
+			: "Secret Crow Online is a free hidden-identity game for up to 10 players, elegantly adapted from the original Secret Crow. " +
+			  "Play for free in your browser with no ads ever. Can you find and stop the Secret Crow?";
 	let hashtag =
-		props.hashtag !== undefined ? props.hashtag : "#SecretHitlerOnline";
+		props.hashtag !== undefined ? props.hashtag : "#SecretCrowOnline";
 	return (
 		<Helmet>
 			<title>{title}</title>
@@ -44,11 +44,11 @@ export default function HelmetMetaData(props) {
 			<meta property="og:image" content={image} />
 			<meta content="image/*" property="og:image:type" />
 			<meta property="og:url" content={currentUrl} />
-			<meta property="og:site_name" content="Secret Hitler Online" />
+			<meta property="og:site_name" content="Secret Crow Online" />
 			<meta property="og:description" content={description} />
 			<meta
 				name="keywords"
-				content="Secret Hitler, party game, play, free, online, tabletop simulator, board game"
+				content="Secret Crow, party game, play, free, online, tabletop simulator, board game"
 			/>
 		</Helmet>
 	);

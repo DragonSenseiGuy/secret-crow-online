@@ -111,7 +111,7 @@ export const SelectNominationPrompt = (
               className="left-align highlight"
               hidden={!shouldFascistVictoryWarningBeShown}
             >
-              Fascists will win if Hitler is nominated and voted in as
+              Fascists will win if Crow is nominated and voted in as
               Chancellor!
             </p>
           </div>
@@ -152,7 +152,7 @@ export const SelectInvestigationPrompt = (
             <p className={"left-align"}>
               Choose a player and investigate their party alignment. You'll
               learn if the player is a member of the Fascist or Liberal party,
-              but not their specific role (e.g., Hitler).
+              but not their specific role (e.g., Crow).
             </p>
             <p className={"left-align"}>
               Players that have been investigated once cannot be investigated
@@ -211,7 +211,7 @@ export const SelectExecutionPrompt = (
               or run for office.
             </p>
             <p className={"left-align highlight"}>
-              The game ends and Liberals win if Hitler is executed.
+              The game ends and Liberals win if Crow is executed.
             </p>
           </>
         );

@@ -31,7 +31,7 @@ const LiberalImagesAltText = [
 ];
 const HitlerImages = [RoleHitler];
 const HitlerImagesAltText = [
-  "Your secret role is HITLER. The card shows a crocodile in a suit and WW2 German military hat glaring at the camera.",
+  "Your secret role is CROW. The card shows a crocodile in a suit and WW2 German military hat glaring at the camera.",
 ];
 const FascistImages = [RoleFascist1, RoleFascist2, RoleFascist3];
 const FascistImagesAltText = [
@@ -41,14 +41,14 @@ const FascistImagesAltText = [
 ];
 
 const LiberalText = [
-  "You win if the board fills with liberal policies, or if Hitler is executed.",
-  "You lose if the board fills with fascist policies, or if Hitler is elected chancellor after 3 fascist policies are passed.",
-  "Keep your eyes open and look for suspicious actions. Suss out Hitler, and remember that anyone might be lying!",
+  "You win if the board fills with liberal policies, or if Crow is executed.",
+  "You lose if the board fills with fascist policies, or if Crow is elected chancellor after 3 fascist policies are passed.",
+  "Keep your eyes open and look for suspicious actions. Suss out Crow, and remember that anyone might be lying!",
 ];
 const FascistText = [
-  "You win if Hitler is successfully elected chancellor once 3 fascist policies are on the board, or if the board fills with fascist policies.",
-  "You lose if the board fills with liberal policies or if Hitler is executed.",
-  "Keep suspicion off of Hitler and look for ways to throw confusion into the game.",
+  "You win if Crow is successfully elected chancellor once 3 fascist policies are on the board, or if the board fills with fascist policies.",
+  "You lose if the board fills with liberal policies or if Crow is executed.",
+  "Keep suspicion off of Crow and look for ways to throw confusion into the game.",
 ];
 const HitlerText = [
   "You win if you are successfully elected chancellor once 3 fascist policies are on the board, or if the board fills with fascist policies.",

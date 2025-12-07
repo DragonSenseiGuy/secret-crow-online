@@ -679,7 +679,7 @@ class App extends Component<{}, AppState> {
   renderLoginPage() {
     return (
       <div className="App">
-        <header className="App-header">SECRET-HITLER.ONLINE</header>
+        <header className="App-header">SECRET-CROW.ONLINE</header>
         <br />
         <div style={{ textAlign: "center" }}>
           {/** TODO: Add reusable announcement component. 
@@ -877,7 +877,7 @@ class App extends Component<{}, AppState> {
       this.state.usernames[0] === this.state.name;
     return (
       <div className="App">
-        <header className="App-header">SECRET-HITLER.ONLINE</header>
+        <header className="App-header">SECRET-CROW.ONLINE</header>
 
         <CustomAlert show={this.state.showAlert}>
           {this.state.alertContent}
@@ -1433,7 +1433,7 @@ class App extends Component<{}, AppState> {
               victoryMessage = "Fascists successfully passed six policies!";
             } else if (fascistVictoryElection) {
               victoryMessage =
-                "Fascists successfully elected Hitler as chancellor!";
+                "Fascists successfully elected Crow as chancellor!";
             }
           } else {
             players = liberalPlayers.concat(fascistPlayers);
@@ -1443,7 +1443,7 @@ class App extends Component<{}, AppState> {
             if (liberalVictoryPolicy) {
               victoryMessage = "Liberals successfully passed five policies!";
             } else if (liberalVictoryExecution) {
-              victoryMessage = "Liberals successfully executed Hitler!";
+              victoryMessage = "Liberals successfully executed Crow!";
             }
           }
           if (DEBUG) {
@@ -1701,7 +1701,7 @@ class App extends Component<{}, AppState> {
   renderGamePage() {
     return (
       <div className="App" style={{ textAlign: "center" }}>
-        <header className="App-header">SECRET-HITLER.ONLINE</header>
+        <header className="App-header">SECRET-CROW.ONLINE</header>
 
         <CustomAlert show={this.state.showAlert}>
           {this.state.alertContent}

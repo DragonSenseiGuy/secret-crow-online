@@ -127,7 +127,7 @@ class VotingPrompt extends Component<VotingPromptProps, VotingPromptState> {
               {this.props.gameState.fascistPolicies >= 3 && (
                 <p className="highlight left-align">
                   {
-                    "Fascists will win if Hitler is successfully voted in as chancellor!"
+                    "Fascists will win if Crow is successfully voted in as chancellor!"
                   }
                 </p>
               )}

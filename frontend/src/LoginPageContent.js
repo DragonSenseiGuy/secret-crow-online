@@ -31,9 +31,9 @@ class LoginPageContent extends Component {
             <>
                 <div id={"#login-page-description-container"}>
                     <div id={"login-page-description-text-container"}>
-                        <h2 id={"login-page-description-text-header"}>What is Secret Hitler Online?</h2>
+                        <h2 id={"login-page-description-text-header"}>What is Secret Crow Online?</h2>
                         <p id={"login-page-description-text"}>
-                            Secret Hitler Online is an adaptation of the original Secret Hitler board game,
+                            Secret Crow Online is an adaptation of the original Secret Crow board game,
                             reimagined for the web.
                             It supports up to 10 players, featuring smooth art and animations with all the secrecy and
                             intrigue of the original. It's designed to be easy to pick up and play for any quarantine
@@ -56,7 +56,7 @@ class LoginPageContent extends Component {
                             </a>!
                             <br/><br/>
                             Adapted from the original <a href={"https://secrethitler.com"} target={"_blank"} rel="noreferrer" onClick={this.onClickGameWebsite}>
-                                Secret Hitler
+                                Secret Crow
                             </a> board game by Goat, Wolf, & Cabbage (© 2016-2020). Developed by ShrimpCryptid (© 2020-2023).
                             <br/><br/>
                             Found a bug or want to leave a comment? Report bugs on the <a href={"https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues"}
