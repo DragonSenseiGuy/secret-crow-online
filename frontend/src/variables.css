@@ -1,10 +1,10 @@
 :root {
-    --headerFill:#e05b2b;
+    --headerFill:#F24B4B;
     --headerTextColor: #ffffff;
-    --headerFont: Germania One, cursive;
+    --headerFont: Moga, cursive;
     --backgroundLight: #4d4945;
     --backgroundDark: #372e25;
-    --textFont: Montserrat, sans-serif;
+    --textFont: 'PT Serif', serif;
     --textColorOnWhite: #69645e;
     --textColorOnDark: #bbbbbb;
     --textColorHighlight: var(--headerFill);
@@ -13,13 +13,13 @@
     --textShadowed: #141414;
     --buttonFill: var(--headerFill);
     --buttonShadowFill: #b4431a;
-    --buttonHoverFill: #e67a53;
+    --buttonHoverFill: #ea7979;
     --buttonDisabledFill: #928079;
     --buttonDisabledShadowFill: #766058;
 
     --buttonAltFill: var(--textColorLiberal);
-    --buttonAltHoverFill: #7abcca;
-    --buttonAltShadowFill: #386F8B;
+    --buttonAltHoverFill: #453B61;
+    --buttonAltShadowFill: #29223b;
 
     --alertFill: #141414;
     --alertOverlayOpacity: 0.8;
@@ -27,9 +27,9 @@
     --playerBrightnessFilter: 40%;
     --playerDisabledTextColor: #999999;
 
-    --selectionHover: rgba(246, 181, 63, 1.00);
-    --selectionPressed: rgba(205, 135, 9, 1.00);
-    --selectionSelected: rgba(228, 105, 73, 1.00);
+    --selectionHover: rgba(245, 144, 144, 1.00);
+    --selectionPressed: rgba(204, 53, 53, 1.00);
+    --selectionSelected: rgba(191, 90, 90, 1.00);
     --selectionNone: rgba(246, 181, 63, 0.00);
 
     --eventBarIn: 1s;
