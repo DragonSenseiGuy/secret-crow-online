@@ -23,7 +23,7 @@ Follow these instructions if you are only making changes to the frontend. These 
 Open a terminal window and run the following commands to clone the project and set up the frontend dependencies:
 
 ```bash
-git clone git@github.com:ShrimpCryptid/Secret-Hitler-Online.git
+git clone git@github.com:DragonSenseiGuy/secret-crow-online.git
 cd Secret-Hitler-Online/frontend
 
 npm install
@@ -41,7 +41,7 @@ If you're modifying the backend, you'll need to run the server locally. You'll n
 In your first terminal, clone the repo if you haven't yet. Navigate to the `backend` subdirectory, then use gradle to start the server.
 
 ```bash
-git clone git@github.com:ShrimpCryptid/Secret-Hitler-Online.git
+git clone git@github.com:DragonSenseiGuy/secret-crow-online.git
 cd Secret-Hitler-Online/backend
 
 ./gradlew runLocal

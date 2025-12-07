@@ -49,7 +49,7 @@ class LoginPageContent extends Component {
                             <br/>
                             The project is open-source, and is licensed under CC BY-NC-SA 4.0.
                             You can read more about the project <a
-                                href={"https://github.com/ShrimpCryptid/Secret-Hitler-Online/"}
+                                href={"https://github.com/DragonSenseiGuy/secret-crow-online"}
                                 rel="noreferrer"
                                 target={"_blank"} onClick={this.onClickAbout}>
                                     on GitHub
@@ -59,7 +59,7 @@ class LoginPageContent extends Component {
                                 Secret Crow
                             </a> board game by Goat, Wolf, & Cabbage (© 2016-2020). Developed by ShrimpCryptid (© 2020-2023).
                             <br/><br/>
-                            Found a bug or want to leave a comment? Report bugs on the <a href={"https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues"}
+                            Found a bug or want to leave a comment? Report bugs on the <a href={"https://github.com/DragonSenseiGuy/secret-crow-online"}
                                                                                              rel="noreferrer"
                                                                                              target={"_blank"}>Issues page</a>.
                         </p>

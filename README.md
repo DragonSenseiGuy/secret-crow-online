@@ -33,4 +33,4 @@ Secret Hitler Online is licensed under [Creative Commons BY-NC-SA 4.0](https://c
 - Where possible, fonts were replaced with ones licensed under the [Open Font License](https://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL), namely [Germania One](https://fonts.google.com/specimen/Germania+One) and [Montserrat](https://fonts.google.com/specimen/Montserrat).
 - The web interface, animations, and server are new additions that use the same rules from the original game.
 
-### Report problems or suggest features on the [Issues page](https://github.com/ShrimpCryptid/Secret-Hitler-Online/issues).
+### Report problems or suggest features on the [Issues page](https://github.com/DragonSenseiGuy/secret-crow-online/issues).
