@@ -1,11 +1,13 @@
-/* Load local Moga font (mogs.ttf) instead of Google Fonts */
+/* Load PT Serif and Fredoka from Google Fonts, and keep local Moga for headers */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @font-face {
 	font-family: 'Moga';
-	/* font is now inside src so webpack will bundle it */
+	/* font is inside src so webpack will bundle it */
 	src: url('./fonts/Moga.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
 }
 
-/* If you want to include Montserrat or other webfonts, add them here. */
+/* Additional local or webfonts may be added below */

@@ -4,7 +4,7 @@
     --headerFont: Moga, cursive;
     --backgroundLight: #4d4945;
     --backgroundDark: #372e25;
-    --textFont: Montserrat, sans-serif;
+    --textFont: 'PT Serif', serif;
     --textColorOnWhite: #69645e;
     --textColorOnDark: #bbbbbb;
     --textColorHighlight: var(--headerFill);
