@@ -12,7 +12,7 @@ div {
 }
 
 header { /*This is the bar that appears at the top of the game.*/
-    background-color: #E05B2B; /*var(--headerFill);*/
+    background-color: #F24B4B; /*var(--headerFill);*/
     min-height: 6vh; /*This means 8% of the viewport height.*/
     display: flex;
     flex-direction: column;

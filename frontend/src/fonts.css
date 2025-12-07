@@ -1,1 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Germania+One&family=Montserrat:wght@700&family=Montserrat:wght@500&display=swap");
+/* Load local Moga font (mogs.ttf) instead of Google Fonts */
+@font-face {
+	font-family: 'Moga';
+	src: url('./fonts/mogs.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* If you want to include Montserrat or other webfonts, add them here. */
