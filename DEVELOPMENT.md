@@ -1,4 +1,4 @@
-# Development setup for Secret Hitler Online
+# Development setup for Secret Crow Online
 
 ## Quick start using Docker:
 - Run everything with Docker Compose (DB + backend + frontend):

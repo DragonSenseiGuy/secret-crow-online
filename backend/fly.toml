@@ -1,6 +1,6 @@
 # fly.toml file generated for secret-hitler-online on 2022-11-25T23:12:11-08:00
 
-app = "secret-hitler-online"
+app = "-hitler-online"secret
 kill_signal = "SIGINT"
 kill_timeout = "5s"
 processes = []
