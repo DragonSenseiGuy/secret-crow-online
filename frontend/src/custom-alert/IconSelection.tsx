@@ -173,7 +173,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                 game, so this would be a big help.
               </p>
               <TwitterShareButton
-                url={"https://secret-hitler.online!"}
+                url={"https://secret-crow-online.vercel.app/!"}
                 options={{
                   text: "I'm playing #SecretCrowOnline at",
                   size: "large",
@@ -204,7 +204,7 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
                 Secret Crow Online! Thank you! 💖)
               </p>
               <TwitterShareButton
-                url={"https://secret-hitler.online!"}
+                url={"https://secret-crow-online.vercel.app/!"}
                 options={{
                   text: "I'm playing #SecretCrowOnline at",
                   size: "large",

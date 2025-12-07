@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 export default function HelmetMetaData(props) {
 	let location = "/";
-	let currentUrl = "http://www.secret-hitler.online" + location; // location.pathname
+	let currentUrl = "http://secret-crow-online.vercel.app/" + location; // location.pathname
 	let quote = props.quote !== undefined ? props.quote : "";
 	let title = props.title !== undefined ? props.title : "Secret Crow Online";
 	let image =

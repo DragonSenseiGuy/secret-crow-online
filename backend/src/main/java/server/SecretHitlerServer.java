@@ -128,7 +128,7 @@ public class SecretHitlerServer {
                     });
                 } else {
                     cors.add(it -> {
-                        it.allowHost("https://secret-hitler.online");
+                        it.allowHost("https://secret-crow-online.vercel.app/");
                     });
                 }
             });

@@ -1,7 +1,7 @@
 # Secret-Crow-Online :3c
 ![](https://i.postimg.cc/zvnLRbqq/place-policy.gif)
 
-A fan-made web adaptation of [Secret Hitler](https://secrethitler.com), a social deduction board game for up to 10 players by Goat, Wolf & Cabbage. You can play it with friends at [secret-hitler.online](https://secret-hitler.online)!
+A fan-made web adaptation of [Secret Hitler](https://secrethitler.com), a social deduction board game for up to 10 players by Goat, Wolf & Cabbage. You can play it with friends at [secret-crow-online.vercel.app](https://secret-crow-online.vercel.app/)!
 
 ### The Game
 In the game, players are divided into Liberals, Fascists, and one secret Hitler. The Liberals must work together (or not) to discover the secret Hitler hiding in their midst, all while the Fascists try to elevate the secret Hitler to power. Pass policies to achieve victory and unlock presidential powers to investigate your friends. 
@@ -9,7 +9,7 @@ In the game, players are divided into Liberals, Fascists, and one secret Hitler.
 Can you find and stop the Secret Hitler?
 
 ### How to Play: 
-Go to [secret-hitler.online](https://secret-hitler.online) and open a new lobby! Use the lobby's code or the provided link to invite your friends. You can play with up to 10 players at once!
+Go to [secret-crow-online.vercel.app](https://secret-crow-online.vercel.app/) and open a new lobby! Use the lobby's code or the provided link to invite your friends. You can play with up to 10 players at once!
 
 There are instructions on how to play the game provided on the website, and plenty of helpful tips are provided for first-time players. The game takes care of rules for you, making it easy to pick up and play. 
 
