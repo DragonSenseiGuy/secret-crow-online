@@ -1,9 +1,7 @@
 import React, { Component } from "react";
 import "../selectable.css";
 import "./IconSelection.css";
-import Cookies from "js-cookie";
-// TODO: Remove this package!
-import { TwitterShareButton } from "react-twitter-embed";
+// Sharing is no longer required to unlock icons; removed Twitter dependency.
 import portraits, {
   unlockedPortraits,
   lockedPortraits,
@@ -14,7 +12,7 @@ import { portraitsAltText } from "../assets";
 import ButtonPrompt from "./ButtonPrompt";
 import { SendWSCommand, WSCommandType } from "../types";
 
-export const UNLOCK_ICONS_COOKIE_NAME = "_unlock_icons";
+// icons are unlocked by default; cookie no longer used
 
 type IconSelectionProps = {
   playerToIcon: Record<string, string>;
@@ -36,22 +34,16 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
   constructor(props: IconSelectionProps) {
     super(props);
 
-    // Check if the locked icons prompt should be shown. (using cookies!)
-    let hasUserUnlockedIcons = false;
-    if (Cookies.get(UNLOCK_ICONS_COOKIE_NAME)) {
-      hasUserUnlockedIcons = true;
-    }
-
+    // Unlock all icons by default
     this.state = {
-      unlockLockedIcons: hasUserUnlockedIcons,
-      showLockedPrompt: !hasUserUnlockedIcons,
+      unlockLockedIcons: true,
+      showLockedPrompt: false,
     };
 
     this.onConfirmButtonClick = this.onConfirmButtonClick.bind(this);
     this.getIconButtonHML = this.getIconButtonHML.bind(this);
     this.isIconInUse = this.isIconInUse.bind(this);
-    this.onClickUnlock = this.onClickUnlock.bind(this);
-    this.addTwitterHooks = this.addTwitterHooks.bind(this);
+    // no unlock/share hooks needed
   }
 
   componentWillUnmount() {
@@ -142,88 +134,24 @@ class IconSelection extends Component<IconSelectionProps, IconSelectionState> {
   }
 
   onClickUnlock() {
-    // Unlock the icons
+    // kept for compatibility in case something calls it elsewhere
     this.setState({ unlockLockedIcons: true });
-    // Set cookie signaling that this action has occurred, which gives the player a different
-    // icon selection screen on the next load.
-    Cookies.set(UNLOCK_ICONS_COOKIE_NAME, "true", { expires: 365 });
-    // Callback for analytics logging
-    this.props.onClickTweet();
-  }
-
-  addTwitterHooks() {
-    window.twttr.ready((twttr) => {
-      twttr.events.bind("tweet", this.onClickUnlock);
-    });
   }
 
   render() {
     let headerPortraits: string[];
     let footerContent: () => React.ReactNode;
-    if (this.state.showLockedPrompt) {
-      headerPortraits = unlockedPortraits;
-      footerContent = () => {
-        return (
-          <>
-            <h2 style={{ textAlign: "left" }}>EXTRA ICONS:</h2>
-            <div id={"locked-icon-text-container"}>
-              <p id={"icon-text"} style={{ textAlign: "left" }}>
-                Unlock these {lockedPortraits.length} extra icons by sharing
-                this website! I'd really like for more people to enjoy this
-                game, so this would be a big help.
-              </p>
-              <TwitterShareButton
-                url={"https://secret-crow-online.vercel.app/!"}
-                options={{
-                  text: "I'm playing #SecretCrowOnline at",
-                  size: "large",
-                }}
-                onLoad={this.addTwitterHooks}
-                placeholder={
-                  <p
-                    id={"icon-text"}
-                    style={{ color: "var(--textColorLiberal)" }}
-                  >
-                    Loading...
-                  </p>
-                }
-              />
-            </div>
-            {this.getIconButtonHML(lockedPortraits)}
-          </>
-        );
-      }; // end footer content
-    } else {
-      headerPortraits = unlockedPortraits.concat(lockedPortraits);
-      footerContent = () => {
-        return (
-          <>
-            <div id={"locked-icon-text-container"}>
-              <p>
-                (You unlocked {lockedPortraits.length} extra icons by sharing
-                Secret Crow Online! Thank you! 💖)
-              </p>
-              <TwitterShareButton
-                url={"https://secret-crow-online.vercel.app/!"}
-                options={{
-                  text: "I'm playing #SecretCrowOnline at",
-                  size: "large",
-                }}
-                onLoad={this.addTwitterHooks}
-                placeholder={
-                  <p
-                    id={"icon-text"}
-                    style={{ color: "var(--textColorLiberal)" }}
-                  >
-                    Loading...
-                  </p>
-                }
-              />
-            </div>
-          </>
-        );
-      }; // end footer content
-    }
+    // All icons unlocked: show everything and no share UI
+    headerPortraits = unlockedPortraits.concat(lockedPortraits);
+    footerContent = () => {
+      return (
+        <>
+          <div id={"locked-icon-text-container"}>
+            <p>(All icons are available.)</p>
+          </div>
+        </>
+      );
+    };
 
     return (
       <ButtonPrompt
