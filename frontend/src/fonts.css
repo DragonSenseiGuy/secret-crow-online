@@ -1,8 +1,8 @@
 /* Load local Moga font (mogs.ttf) instead of Google Fonts */
 @font-face {
 	font-family: 'Moga';
-	/* font is served from the public folder at /fonts/Moga.ttf */
-	src: url('/fonts/Moga.ttf') format('truetype');
+	/* font is now inside src so webpack will bundle it */
+	src: url('./fonts/Moga.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
