@@ -1,7 +1,8 @@
 /* Load local Moga font (mogs.ttf) instead of Google Fonts */
 @font-face {
 	font-family: 'Moga';
-	src: url('./fonts/mogs.ttf') format('truetype');
+	/* actual file lives at frontend/fonts/mogs.ttf (one level up from src/) */
+	src: url('../fonts/mogs.ttf') format('truetype');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
