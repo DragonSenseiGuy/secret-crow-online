@@ -37,7 +37,7 @@
 		"@types/js-cookie": "^3.0.6",
 		"@types/node": "^20.11.16",
 		"@types/twitter-for-web": "^0.0.6",
-		"env-cmd": "^10.1.0",
+		"env-cmd": "^11.0.0",
 		"prop-types": "^15.7.2",
 		"react-scripts": "^5.0.0"
 	},
